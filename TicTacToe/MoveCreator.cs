@@ -1,16 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.IO;
-using System.Web;
-using System.Net;
-using System.Linq;
-using System.Text;
-using TicTacToe;
-
 namespace TicTacToe
 {
-    //
+    //Create X or O at the clicked position
     public class MoveCreator
     {
         public  bool isX { get; set; }

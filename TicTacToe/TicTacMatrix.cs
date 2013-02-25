@@ -1,15 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.IO;
-using System.Web;
-using System.Net;
-using System.Linq;
-using System.Text;
-
 namespace TicTacToe
 {
-    //
+    //The matrix to hold the moves with only needed methods
     public class TicTacMatrix<Moves>
     {
         public Moves[,] elements;

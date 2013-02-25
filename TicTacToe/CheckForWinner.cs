@@ -1,15 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.IO;
-using System.Web;
-using System.Net;
-using System.Linq;
-using System.Text;
-
 namespace TicTacToe
 {
-    //
+    //Check every possibility for a player victory
     public static class CheckForWinner
     {
         private static TicTacMatrix<Moves> Matrix { get; set; }

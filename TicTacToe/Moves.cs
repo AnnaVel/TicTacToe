@@ -1,15 +1,6 @@
-using System;
-using System.Collections.Generic;
-using System.Threading;
-using System.IO;
-using System.Web;
-using System.Net;
-using System.Linq;
-using System.Text;
-
 namespace TicTacToe
 {
-    //
+    //The pattern for X and O
     public struct Moves
     {
         public int x { get; set; }
